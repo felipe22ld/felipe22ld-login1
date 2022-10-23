@@ -1,21 +1,15 @@
 <ion-header [translucent]="true">
-  <ion-back-button defaultHref="login"></ion-back-button>
+  <!-- <ion-back-button defaultHref="login"></ion-back-button> -->
   <ion-toolbar>
     <ion-title>
-      Felipinho caraio1
+      Felipinho
     </ion-title>
   </ion-toolbar>
 </ion-header>
+<ion-content>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-button expand="block"
+  (click)="navigate()"
+    ><p>eu quero mamar o Felipinho </p>
+  </ion-button>
 </ion-content>
